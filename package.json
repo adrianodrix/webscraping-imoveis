@@ -1,0 +1,27 @@
+{
+  "name": "webscraping-imoveis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "dolar": "node dolar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianodrix/webscraping-imoveis.git"
+  },
+  "author": "Adriano Santos <adrianodrix@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianodrix/webscraping-imoveis/issues"
+  },
+  "homepage": "https://github.com/adrianodrix/webscraping-imoveis#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "crawler": "^1.2.1",
+    "json2csv": "^4.5.2",
+    "request-promise": "^4.2.4"
+  }
+}
